@@ -1,0 +1,327 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\model\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\model\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\elevatorsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\state\\liftmovesup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\state\\liftmovesup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\state\\liftmovesdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\state\\liftmovesdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\state\\dooropeng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\state\\dooropeng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\state\\doorcloseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\state\\doorcloseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\context\\lift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\context\\lift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\elevatorsystem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\state\\doorclose1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\state\\doorclose1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\interface\\idle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\interface\\idle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\controller\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\controller\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\interface\\ilift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\interface\\ilift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|c:\\users\\sthar\\onedrive\\desktop\\elevator\\elevatorsystem\\elevatorsystem\\state\\dooropen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\state\\dooropen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\elevatorsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\elevatorsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\elevatorsystem\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E26203EF-C4F9-4CE3-B55E-E75F77C3D553}|ElevatorSystem\\ElevatorSystem.csproj|solutionrelative:elevatorsystem\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 221,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Model\\DataBase.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\Model\\DataBase.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Model\\DataBase.cs",
+              "RelativeToolTip": "ElevatorSystem\\Model\\DataBase.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAADgv1EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:35:33.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GlobalVariable.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\GlobalVariable.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\GlobalVariable.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\GlobalVariable.cs",
+              "RelativeToolTip": "ElevatorSystem\\GlobalVariable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:33:01.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoorOpenG.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\DoorOpenG.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\State\\DoorOpenG.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\DoorOpenG.cs",
+              "RelativeToolTip": "ElevatorSystem\\State\\DoorOpenG.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:27:19.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoorCloseG.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\DoorCloseG.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\State\\DoorCloseG.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\DoorCloseG.cs",
+              "RelativeToolTip": "ElevatorSystem\\State\\DoorCloseG.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwCUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:31:06.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LiftMovesUp.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\LiftMovesUp.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\State\\LiftMovesUp.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\LiftMovesUp.cs",
+              "RelativeToolTip": "ElevatorSystem\\State\\LiftMovesUp.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:30:26.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LiftMovesDown.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\LiftMovesDown.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\State\\LiftMovesDown.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\LiftMovesDown.cs",
+              "RelativeToolTip": "ElevatorSystem\\State\\LiftMovesDown.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:30:25.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "log.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Controller\\log.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\Controller\\log.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Controller\\log.cs",
+              "RelativeToolTip": "ElevatorSystem\\Controller\\log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:28:22.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoorOpen1.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\DoorOpen1.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\State\\DoorOpen1.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\DoorOpen1.cs",
+              "RelativeToolTip": "ElevatorSystem\\State\\DoorOpen1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:25:16.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoorClose1.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\DoorClose1.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\State\\DoorClose1.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\State\\DoorClose1.cs",
+              "RelativeToolTip": "ElevatorSystem\\State\\DoorClose1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:24:44.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ILift.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Interface\\ILift.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\Interface\\ILift.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Interface\\ILift.cs",
+              "RelativeToolTip": "ElevatorSystem\\Interface\\ILift.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:23:39.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lift.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Context\\Lift.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\Context\\Lift.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Context\\Lift.cs",
+              "RelativeToolTip": "ElevatorSystem\\Context\\Lift.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:23:08.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Idle.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Interface\\Idle.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\Interface\\Idle.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Interface\\Idle.cs",
+              "RelativeToolTip": "ElevatorSystem\\Interface\\Idle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:22:54.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Form1.cs [Design]",
+              "RelativeToolTip": "ElevatorSystem\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:16:48.85Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Form1.cs",
+              "RelativeToolTip": "ElevatorSystem\\Form1.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAgwLkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:16:38.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Form1.Designer.cs",
+              "RelativeToolTip": "ElevatorSystem\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T10:12:27.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\App.config",
+              "RelativeDocumentMoniker": "ElevatorSystem\\App.config",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\App.config",
+              "RelativeToolTip": "ElevatorSystem\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-24T10:13:09.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\packages.config",
+              "RelativeDocumentMoniker": "ElevatorSystem\\packages.config",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\packages.config",
+              "RelativeToolTip": "ElevatorSystem\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-24T10:13:05.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ElevatorSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\sthar\\OneDrive\\Desktop\\Elevator\\ElevatorSystem\\ElevatorSystem\\Program.cs",
+              "RelativeToolTip": "ElevatorSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T10:12:55.394Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

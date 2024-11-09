@@ -11,7 +11,7 @@ namespace ElevatorSystem
     internal class LiftMovesUp : ILift // Inheritance:
     {
         // Empty method for closing the door in the LiftMovesUp state; not applicable here
-        public void LiftCloseDoor(Lift lift)
+        public void LiftCloseDoor(Lift lift)    
         {
         }
 
@@ -24,7 +24,11 @@ namespace ElevatorSystem
         public void LiftMoveUp(Lift lift)
         {
 
-
+            if (lift.Display.InvokeRequired)
+            {
+                lift.Display.Invoke(new Action(() => LiftMoveUp(lift)));
+                return;
+            }
             // Update the display images to show the 'up' movement
             lift.Display.Image = global::ElevatorSystem.Properties.Resources.up;
             lift.Display_up.Image = global::ElevatorSystem.Properties.Resources.up;

@@ -1,14 +1,9 @@
 ﻿// Import required namespaces
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms; // Provides classes for creating Windows Forms applications
 
 namespace ElevatorSystem
 {
-    // Internal class representing the Lift, including its controls, display elements, and operational states
+    
     // Encapsulation
     internal class Lift
     {

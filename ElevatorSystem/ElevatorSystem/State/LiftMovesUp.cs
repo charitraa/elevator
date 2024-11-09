@@ -23,8 +23,7 @@ namespace ElevatorSystem
         // Method to handle the movement of the lift when going up
         public void LiftMoveUp(Lift lift)
         {
-            // Hide the lift base image to simulate movement
-            lift.liftBase.Visible = false;
+
 
             // Update the display images to show the 'up' movement
             lift.Display.Image = global::ElevatorSystem.Properties.Resources.up;
@@ -59,9 +58,7 @@ namespace ElevatorSystem
                 lift.Display_Down.Image = global::ElevatorSystem.Properties.Resources._1;
                 lift.GoFirstFloor.BackColor = Color.White;
 
-                // Make the lift base visible again
-                lift.liftBase.Visible = true;
-
+            
                 // Enable all interaction buttons as needed
                 lift.RequestFirstFloor.Enabled = true;
                 lift.RequestGroundFloor.Enabled = true;

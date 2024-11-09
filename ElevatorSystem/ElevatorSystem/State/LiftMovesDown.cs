@@ -18,8 +18,6 @@ namespace ElevatorSystem
         // Method to handle the movement of the lift when going down
         public void LiftMoveDown(Lift lift)
         {
-            // Hide the lift base image to simulate movement
-            lift.liftBase.Visible = false;
 
             // Update the display images to show the 'down' movement
             lift.Display.Image = global::ElevatorSystem.Properties.Resources.down;
@@ -56,9 +54,6 @@ namespace ElevatorSystem
                 lift.GoDownFloor.Enabled = true;
                 lift.DoorClose.Enabled = true;
                 lift.DoorOpen.Enabled = true;
-
-                // Make the lift base visible again
-                lift.liftBase.Visible = true;
 
                 // Update the display images to show the ground floor (G)
                 lift.Display_up.Image = global::ElevatorSystem.Properties.Resources.G;

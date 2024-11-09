@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 namespace ElevatorSystem
 {
     // Idle state class implementing the ILift interface
-    // This represents the idle behavior of the elevator when no action is occurring
     // Inheritance:
     internal class Idle : ILift // Inheritance:
     {

@@ -1,19 +1,13 @@
-﻿using MySql.Data.MySqlClient;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ElevatorSystem
 
 {
-    public partial class elevator : Form //In
+    public partial class elevator : Form //Inherit
     {
         // Declares a read-only DataSet instance to hold data (e.g., logs or other information related to the elevator).
         private readonly DataSet ds = new DataSet();

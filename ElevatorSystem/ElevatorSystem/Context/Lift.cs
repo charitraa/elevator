@@ -9,6 +9,7 @@ using System.Windows.Forms; // Provides classes for creating Windows Forms appli
 namespace ElevatorSystem
 {
     // Internal class representing the Lift, including its controls, display elements, and operational states
+    // Encapsulation
     internal class Lift
     {
         // PictureBox components representing the doors and lift display elements
@@ -51,7 +52,7 @@ namespace ElevatorSystem
         }
 
         // Method to set a new state for the lift
-        public void SetState(ILift state)
+        public void SetState(ILift state) // Polymorphism:
         {
             _CurrentState = state;
         }

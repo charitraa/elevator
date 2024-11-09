@@ -9,7 +9,8 @@ namespace ElevatorSystem
 {
     // Idle state class implementing the ILift interface
     // This represents the idle behavior of the elevator when no action is occurring
-    internal class Idle : ILift
+    // Inheritance:
+    internal class Idle : ILift // Inheritance:
     {
         // Method to handle closing the door while in Idle state
         // Currently empty, as no specific action occurs in this state

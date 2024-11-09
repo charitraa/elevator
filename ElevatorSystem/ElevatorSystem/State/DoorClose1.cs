@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace ElevatorSystem
 {
     // Class representing the door-closing state for the lift, implementing the ILift interface
-    internal class DoorClose1 : ILift
+    // Inheritance:
+    internal class DoorClose1 : ILift // Inheritance:
     {
         // Method to handle the door-closing action
         // Moves the lift doors towards the center until they reach the closed position

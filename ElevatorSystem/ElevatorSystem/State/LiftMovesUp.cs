@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ElevatorSystem
 {
     // Class representing the lift moving up state, implementing the ILift interface
-    internal class LiftMovesUp : ILift
+    internal class LiftMovesUp : ILift // Inheritance:
     {
         // Empty method for closing the door in the LiftMovesUp state; not applicable here
         public void LiftCloseDoor(Lift lift)

@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace ElevatorSystem
 {
-    // ILift interface defines the essential operations for a lift (elevator) system
-    // This interface outlines the methods that any lift state should implement
+    // Abstraction:
     internal interface ILift
     {
         // Method for moving the lift up; to be implemented by various lift states

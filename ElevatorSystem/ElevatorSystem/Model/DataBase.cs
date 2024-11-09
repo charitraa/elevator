@@ -15,7 +15,7 @@ namespace ElevatorSystem
     public class DataBase
     {
         // Connection string to connect to the MySQL database, with necessary credentials
-        private readonly string dbConnection = "Server=localhost;Database=elevator;Uid=root;Pwd=root;";
+        private readonly string dbConnection = "Server=localhost;Database=elevator;Uid=root;Pwd=;";
 
         // Method to display logs from the database in a ListBox
         public void DisplayLog(ListBox logListBox, DataSet ds)
@@ -71,6 +71,7 @@ namespace ElevatorSystem
                 // Establish connection and command to insert the log entry
                 using (MySqlConnection connDb = new MySqlConnection(dbConnection))
                 using (MySqlCommand commInsert = new MySqlCommand(dbCommand, connDb))
+                using (MySqlDataAdapter adapter = new MySqlDataAdapter(commInsert))
                 {
                     // Define parameters for the SQL command
                     commInsert.Parameters.AddWithValue("@actions", log.Action);
@@ -79,7 +80,7 @@ namespace ElevatorSystem
 
                     // Open the database connection and execute the insert command
                     connDb.Open();
-                    commInsert.ExecuteNonQuery();
+
                 }
             }
             catch (Exception ex)
@@ -100,10 +101,11 @@ namespace ElevatorSystem
                 // Establish connection and command to execute the truncate operation
                 using (MySqlConnection conn = new MySqlConnection(dbConnection))
                 using (MySqlCommand comm = new MySqlCommand(dbCommand, conn))
+                using (MySqlDataAdapter adapter = new MySqlDataAdapter(comm))
                 {
                     // Open the database connection and execute the command
                     conn.Open();
-                    comm.ExecuteNonQuery();
+
                 }
 
                 // Inform the user that logs have been cleared successfully

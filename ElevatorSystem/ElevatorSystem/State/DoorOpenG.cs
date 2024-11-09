@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ElevatorSystem
 {
     // Class representing the door-opening state for the ground floor, implementing the ILift interface
-    internal class DoorOpenG : ILift
+    internal class DoorOpenG : ILift // Inheritance:
     {
         // Empty method for closing the door in the DoorOpenG state; not applicable here
         public void LiftCloseDoor(Lift lift)

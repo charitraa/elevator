@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ElevatorSystem
 {
     // Class representing the door-closing state for the ground floor, implementing the ILift interface
-    internal class DoorCloseG : ILift
+    internal class DoorCloseG : ILift // Inheritance:
     {
         // Method to handle the door-closing action for the ground floor doors
         // Moves the lift doors towards the center until they reach the closed position

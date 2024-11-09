@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
@@ -20,11 +21,16 @@ namespace ElevatorSystem
 
         // Declares a Log instance to hold messages related to the elevator's operations.s
         Log log;
+        private BackgroundWorker liftUpWorker;
         public elevator()
         {
             InitializeComponent();
             db.DisplayLog(log_list_box, ds);
             lit = new Lift(pictureBox4, down_left_door, pictureBox5, down_right_door, lift, lift_up, lift_down, Door_Close, Door_Open, display_action, go_down_btn, go_up_btn, first_floor_btn, ground_floor_btn, open_lift_btn, close_lift_btn, display_down,display_up);
+            // Initialize BackgroundWorker
+            liftUpWorker = new BackgroundWorker();
+            liftUpWorker.DoWork += liftUpWorker_DoWork;
+            liftUpWorker.RunWorkerCompleted += liftUpWorker_RunWorkerCompleted;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -126,10 +132,10 @@ namespace ElevatorSystem
             first_floor_btn.BackColor = Color.Green;
 
             // Sets the lift’s state to "LiftMovesUp" to handle upward movement logic
-            lit.SetState(new LiftMovesUp());
+            //lit.SetState(new LiftMovesUp());
 
             // Starts the timer controlling the lift’s upward movement
-            lift_up.Start();
+            //lift_up.Start();
 
             // Disables other buttons to prevent additional actions while the lift is moving
             go_down_btn.Enabled = false;
@@ -141,8 +147,37 @@ namespace ElevatorSystem
 
             // Logs the action indicating the lift is moving up to the first floor
             Send_Message("Moving Up to First Floor");
+            if (!liftUpWorker.IsBusy)
+            {
+                liftUpWorker.RunWorkerAsync();
+            }
+        }
+        private void liftUpWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            // Set the lift state to moving up
+            lit.SetState(new LiftMovesUp());
+
+            // Move the lift up (you can add a delay or repetitive action here if needed)
+            while (!GlobalVariable.arrived_1) // Assume GlobalVariable.arrived_1 becomes true when reaching the first floor
+            {
+                lit.LiftMoveUp(); // Calls method to move lift up
+                System.Threading.Thread.Sleep(100); // Adjust delay as needed for smooth movement
+            }
         }
 
+        private void liftUpWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            // Re-enable controls
+            go_down_btn.Enabled = true;
+            go_up_btn.Enabled = true;
+            ground_floor_btn.Enabled = true;
+            first_floor_btn.Enabled = true;
+            close_lift_btn.Enabled = true;
+            open_lift_btn.Enabled = true;
+
+            // Log arrival message
+            Send_Message("Lift has arrived at the First Floor");
+        }
 
         private void display_action_Click(object sender, EventArgs e)
         {
